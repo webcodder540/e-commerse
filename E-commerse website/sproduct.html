@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+</head>
+<body>
+    <section id="header">
+        <a href="#" ><img src="logo.png" height="100px" width="100px"></a>
+<div>
+    <ul id="navbar">
+        <li><a  href="index2.html">home</a></li>
+        <li><a class="active" href="shop.html">shop</a></li>
+        <li><a href="blog.html">blog</a></li>
+        
+        <li><a href="about.html">about</a></li>
+        <li><a href="contact.html">contact</a></li>
+        <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+        <a href="#" id="close"><i class="fa-sharp fa-solid fa-rectangle-xmark"></i></a>
+        
+    </ul>
+</div>
+   <div id="mobile">
+    
+    <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+    <i id="bar" class="fa-solid fa-bars"></i>
+   </div>
+   
+
+    </section>
+    <section id="prodetail" class="section-p1">
+        <div class="single-pro-image">
+            <img src="img/shirt1.avif" width="100%" id="mainimg" alt="">
+            <div class="small-img-group">
+                <div class="small-img-col">
+                    <img src="shirt1.jpeg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="shirt3.jpeg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="s1.jpeg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="shirt4.jpeg" width="100%" class="small-img" alt="">
+                </div>
+
+            </div>
+        </div>
+   
+    <div class="single-pro-detail">
+        <h5>Home / T-shirt</h5>
+        <h4>Men`s fashion t shirt</h4>
+        <h2>$139.00</h2>
+        <select>
+            <option>select size</option>
+            <option>XL</option>
+            <option>XXL</option>
+            <option>small</option>
+            <option>Large</option>
+            
+        </select>
+        <input type="number" value="1">
+        <button>Add to card</button>
+        <h4>Product details</h4>
+        <span>Buy Shirts for Men. Huge collection of men's shirts at low offer price & discounts at COD, Easy Returns & Exchanges. Order Now.Explore wide range of men's shirts, t-shirts, trousers, jackets, formal & casual shoes online at Peter England. Avail Free Shipping & 30 Days exchange ...</span>
+    </div></section>
+   
+      <section id="newsletter" class="section-p1 section-m1"> >
+        <div class="newstext">
+            <h4>sign up for Newletter</h4>
+             <p>Get E-mail updates about our latest shop <span>Special offer</span></p> </div>
+             <div class="form">
+                <input type="text" placeholder="your email address">
+                  <button>Sign up</button>
+             </div>  
+        
+      </section>
+      <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="logo.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> 546 wellingon road, street 32, san francisco </p>
+            <p><strong>phone:</strong> +01 2222 365 23579 </p>
+            <p><strong>Hours</strong> 10:00- 18:00 , mon=sat</p>
+            <div class="follow">
+                <h4>follow us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instragram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Delivery information</a>
+            <a href="#">Privacy policy</a>
+            <a href="#">Terms & conditions</a>
+            <a href="#">Contact us</a>
+
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign in</a>
+            <a href="#">View Cart</a>
+            <a href="#">my wishlist</a>
+            <a href="#">Track my order</a>
+            <a href="#">Helps</a>
+        </div>
+        <div class="col install">
+        <h4>Install App</h4>
+        <p>From App Store Or Google play</p>
+        <div class="row">
+            <img class="img" src="pay2.png" alt="">
+            <img  class="img" src="pay3.png" alt="">
+        </div>
+        <p>Secured payment Gateway</p>
+        <img  class="img1" src="pay1.png" alt="">
+            
+        </div>
+        <div class="copyright">
+            <p>0 2021, tech2 etc - HTML CSS E-COMMERCE TEMPLATE</p>
+        </div>
+    </footer>
+    <script>
+        var mainimg=document.getElementById("mainimg");
+        var smallimg=document.getElementsByClassName("small-img");
+
+        smallimg[0].onclick=function(){
+            mainimg.src=smallimg[0].src;
+        }
+        smallimg[1].onclick=function(){
+            mainimg.src=smallimg[1].src;
+        }
+        smallimg[2].onclick=function(){
+            mainimg.src=smallimg[2].src;
+        }
+        smallimg[3].onclick=function(){
+            mainimg.src=smallimg[3].src;
+        }
+    </script>
+    <script src="index.js"></script>
+</body>
+</html>
